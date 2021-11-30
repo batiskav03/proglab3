@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/pogchamp/IdeaProjects/relab3</OriginalElement>
+  <nodes>
+    <node x="33.29400161030594" y="383.0">DefaultPersona</node>
+    <node x="680.4818438003222" y="742.0">Group</node>
+    <node x="610.0770531400963" y="0.0">Comparable</node>
+    <node x="604.0770531400963" y="130.0">Persona</node>
+    <node x="1041.8687198067628" y="395.5">GroupExeption</node>
+    <node x="13.96489533011254" y="874.0">Bear</node>
+    <node x="43.45205314009627" y="590.5">Bear.Bees</node>
+    <node x="341.95205314009627" y="23.5">FriendlessExeption</node>
+    <node x="48.45205314009627" y="1182.0">Bear.Thoughts</node>
+    <node x="284.57705314009627" y="534.0">Tigra</node>
+    <node x="881.5770531400963" y="545.0">PersonList</node>
+    <node x="465.57705314009627" y="372.0">TypeOfWalking</node>
+    <node x="803.131561996779" y="372.0">ListType</node>
+    <node x="499.1068438003221" y="1334.0">CoolStory</node>
+    <node x="256.9818438003221" y="1138.0">Bunny</node>
+    <node x="712.5770531400963" y="567.0">Fog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Tigra" target="DefaultPersona" relationship="GENERALIZATION">
+      <point x="-40.0" y="-72.0" />
+      <point x="324.57705314009627" y="512.0" />
+      <point x="263.07705314009627" y="512.0" />
+      <point x="263.07705314009627" y="502.0" />
+      <point x="148.04400161030594" y="502.0" />
+      <point x="38.25" y="28.0" />
+    </edge>
+    <edge source="Bunny" target="FriendlessExeption" relationship="DEPENDENCY">
+      <point x="52.75" y="-72.0" />
+      <point x="415.2318438003221" y="1116.0" />
+      <point x="458.4818438003221" y="1116.0" />
+      <point x="458.4818438003221" y="1106.0" />
+      <point x="274.07705314009627" y="1106.0" />
+      <point x="274.07705314009627" y="99.0" />
+      <point x="385.70205314009627" y="99.0" />
+      <point x="-43.75" y="15.5" />
+    </edge>
+    <edge source="Tigra" target="FriendlessExeption" relationship="DEPENDENCY">
+      <point x="40.0" y="-72.0" />
+      <point x="404.57705314009627" y="512.0" />
+      <point x="369.57705314009627" y="512.0" />
+      <point x="369.57705314009627" y="492.0" />
+      <point x="367.12499999999994" y="492.0" />
+      <point x="367.12499999999994" y="109.0" />
+      <point x="274.07705314009627" y="109.0" />
+      <point x="274.07705314009627" y="99.0" />
+      <point x="385.70205314009627" y="99.0" />
+      <point x="-43.75" y="15.5" />
+    </edge>
+    <edge source="Group" target="Fog" relationship="TO_ONE">
+      <point x="0.0" y="-171.0" />
+      <point x="785.4818438003222" y="720.0" />
+      <point x="778.2148953301124" y="720.0" />
+      <point x="778.2148953301124" y="710.0" />
+      <point x="749.8270531400963" y="710.0" />
+      <point x="-37.25" y="39.0" />
+    </edge>
+    <edge source="Group" target="GroupExeption" relationship="CREATE">
+      <point x="70.0" y="-171.0" />
+      <point x="855.4818438003222" y="720.0" />
+      <point x="981.9818438003222" y="720.0" />
+      <point x="981.9818438003222" y="700.0" />
+      <point x="1094.6187198067628" y="700.0" />
+      <point x="1094.6187198067628" y="492.0" />
+      <point x="1079.6187198067628" y="492.0" />
+      <point x="-37.75" y="15.5" />
+    </edge>
+    <edge source="Bunny" target="Persona" relationship="DEPENDENCY">
+      <point x="52.75" y="-72.0" />
+      <point x="415.2318438003221" y="1116.0" />
+      <point x="458.4818438003221" y="1116.0" />
+      <point x="458.4818438003221" y="1106.0" />
+      <point x="455.07705314009627" y="1106.0" />
+      <point x="455.07705314009627" y="350.0" />
+      <point x="691.0770531400963" y="350.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Group" target="Persona" relationship="DEPENDENCY">
+      <point x="-70.0" y="-171.0" />
+      <point x="715.4818438003222" y="720.0" />
+      <point x="549.4690016103059" y="720.0" />
+      <point x="549.4690016103059" y="710.0" />
+      <point x="691.0770531400963" y="710.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Tigra" target="Persona" relationship="DEPENDENCY">
+      <point x="40.0" y="-72.0" />
+      <point x="404.57705314009627" y="512.0" />
+      <point x="369.57705314009627" y="512.0" />
+      <point x="369.57705314009627" y="350.0" />
+      <point x="691.0770531400963" y="350.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Tigra" target="Group" relationship="DEPENDENCY">
+      <point x="40.0" y="72.0" />
+      <point x="404.57705314009627" y="710.0" />
+      <point x="549.4690016103059" y="710.0" />
+      <point x="549.4690016103059" y="720.0" />
+      <point x="715.4818438003222" y="720.0" />
+      <point x="-70.0" y="-171.0" />
+    </edge>
+    <edge source="Group" target="Tigra" relationship="DEPENDENCY">
+      <point x="-70.0" y="-171.0" />
+      <point x="715.4818438003222" y="720.0" />
+      <point x="549.4690016103059" y="720.0" />
+      <point x="549.4690016103059" y="710.0" />
+      <point x="404.57705314009627" y="710.0" />
+      <point x="40.0" y="72.0" />
+    </edge>
+    <edge source="Persona" target="Comparable" relationship="REALIZATION">
+      <point x="43.5" y="-94.0" />
+      <point x="734.5770531400963" y="99.0" />
+      <point x="696.0770531400963" y="99.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="CoolStory" target="Tigra" relationship="CREATE">
+      <point x="-67.75" y="-39.0" />
+      <point x="566.8568438003222" y="1313.0" />
+      <point x="182.3568438003221" y="1313.0" />
+      <point x="182.3568438003221" y="1303.0" />
+      <point x="225.95205314009627" y="1303.0" />
+      <point x="225.95205314009627" y="720.0" />
+      <point x="324.57705314009627" y="720.0" />
+      <point x="-40.0" y="72.0" />
+    </edge>
+    <edge source="Bear.Bees" target="Bear" relationship="INNER_CLASS">
+      <point x="0.0" y="15.5" />
+      <point x="84.95205314009627" y="720.0" />
+      <point x="85.96489533011254" y="720.0" />
+      <point x="0.0" y="-39.0" />
+    </edge>
+    <edge source="Group" target="PersonList" relationship="CREATE">
+      <point x="70.0" y="-171.0" />
+      <point x="855.4818438003222" y="720.0" />
+      <point x="981.9818438003222" y="720.0" />
+      <point x="981.9818438003222" y="700.0" />
+      <point x="1019.5770531400963" y="700.0" />
+      <point x="46.0" y="61.0" />
+    </edge>
+    <edge source="CoolStory" target="Bear" relationship="CREATE">
+      <point x="-67.75" y="-39.0" />
+      <point x="566.8568438003222" y="1313.0" />
+      <point x="182.3568438003221" y="1313.0" />
+      <point x="182.3568438003221" y="1303.0" />
+      <point x="37.95205314009627" y="1303.0" />
+      <point x="37.95205314009627" y="1116.0" />
+      <point x="49.96489533011254" y="1116.0" />
+      <point x="-36.0" y="39.0" />
+    </edge>
+    <edge source="Bear" target="FriendlessExeption" relationship="DEPENDENCY">
+      <point x="-57.59999999999991" y="-39.0" />
+      <point x="28.36489533011263" y="720.0" />
+      <point x="22.79400161030594" y="720.0" />
+      <point x="22.79400161030594" y="109.0" />
+      <point x="274.07705314009627" y="109.0" />
+      <point x="274.07705314009627" y="99.0" />
+      <point x="385.70205314009627" y="99.0" />
+      <point x="-43.75" y="15.5" />
+    </edge>
+    <edge source="Persona" target="FriendlessExeption" relationship="CREATE">
+      <point x="-43.5" y="-94.0" />
+      <point x="647.5770531400963" y="99.0" />
+      <point x="473.20205314009627" y="99.0" />
+      <point x="43.75" y="15.5" />
+    </edge>
+    <edge source="CoolStory" target="Bear.Thoughts" relationship="CREATE">
+      <point x="-67.75" y="-39.0" />
+      <point x="566.8568438003222" y="1313.0" />
+      <point x="182.3568438003221" y="1313.0" />
+      <point x="182.3568438003221" y="1303.0" />
+      <point x="131.95205314009627" y="1303.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Bunny" target="DefaultPersona" relationship="GENERALIZATION">
+      <point x="-52.75" y="-72.0" />
+      <point x="309.7318438003221" y="1116.0" />
+      <point x="263.07705314009627" y="1116.0" />
+      <point x="263.07705314009627" y="502.0" />
+      <point x="148.04400161030594" y="502.0" />
+      <point x="38.25" y="28.0" />
+    </edge>
+    <edge source="Bunny" target="Group" relationship="DEPENDENCY">
+      <point x="52.75" y="-72.0" />
+      <point x="415.2318438003221" y="1116.0" />
+      <point x="458.4818438003221" y="1116.0" />
+      <point x="458.4818438003221" y="1106.0" />
+      <point x="732.9818438003222" y="1106.0" />
+      <point x="-52.5" y="171.0" />
+    </edge>
+    <edge source="Group" target="TypeOfWalking" relationship="DEPENDENCY">
+      <point x="-70.0" y="-171.0" />
+      <point x="715.4818438003222" y="720.0" />
+      <point x="549.4690016103059" y="720.0" />
+      <point x="549.4690016103059" y="710.0" />
+      <point x="519.3270531400963" y="710.0" />
+      <point x="-53.75" y="39.0" />
+    </edge>
+    <edge source="PersonList" target="GroupExeption" relationship="DEPENDENCY">
+      <point x="0.0" y="-61.0" />
+      <point x="973.5770531400963" y="512.0" />
+      <point x="1004.6005636070851" y="512.0" />
+      <point x="1004.6005636070851" y="502.0" />
+      <point x="1122.8687198067628" y="502.0" />
+      <point x="1122.8687198067628" y="472.0" />
+      <point x="1155.1187198067628" y="472.0" />
+      <point x="37.75" y="15.5" />
+    </edge>
+    <edge source="PersonList" target="Persona" relationship="TO_MANY">
+      <point x="61.333333333333314" y="-61.0" />
+      <point x="1034.9103864734295" y="492.0" />
+      <point x="1015.6005636070851" y="492.0" />
+      <point x="1015.6005636070851" y="340.0" />
+      <point x="749.0770531400963" y="340.0" />
+      <point x="58.0" y="94.0" />
+    </edge>
+    <edge source="Bear" target="Bear.Bees" relationship="TO_ONE">
+      <point x="-28.799999999999955" y="-39.0" />
+      <point x="-27.666666666666742" y="15.5" />
+    </edge>
+    <edge source="CoolStory" target="DefaultPersona" relationship="CREATE">
+      <point x="-67.75" y="-39.0" />
+      <point x="566.8568438003222" y="1313.0" />
+      <point x="182.3568438003221" y="1313.0" />
+      <point x="182.3568438003221" y="1303.0" />
+      <point x="0.0" y="1303.0" />
+      <point x="0.0" y="512.0" />
+      <point x="71.54400161030594" y="512.0" />
+      <point x="-38.25" y="28.0" />
+    </edge>
+    <edge source="Group" target="PersonList" relationship="TO_ONE">
+      <point x="0.0" y="-171.0" />
+      <point x="785.4818438003222" y="720.0" />
+      <point x="778.2148953301124" y="720.0" />
+      <point x="778.2148953301124" y="710.0" />
+      <point x="927.5770531400963" y="710.0" />
+      <point x="-46.0" y="61.0" />
+    </edge>
+    <edge source="PersonList" target="Persona" relationship="DEPENDENCY">
+      <point x="0.0" y="-61.0" />
+      <point x="973.5770531400963" y="512.0" />
+      <point x="1004.6005636070851" y="512.0" />
+      <point x="1004.6005636070851" y="350.0" />
+      <point x="691.0770531400963" y="350.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Bear" target="Persona" relationship="GENERALIZATION">
+      <point x="57.59999999999991" y="-39.0" />
+      <point x="143.56489533011245" y="720.0" />
+      <point x="196.79400161030594" y="720.0" />
+      <point x="196.79400161030594" y="350.0" />
+      <point x="114.57705314009627" y="350.0" />
+      <point x="114.57705314009627" y="340.0" />
+      <point x="633.0770531400963" y="340.0" />
+      <point x="-58.0" y="94.0" />
+    </edge>
+    <edge source="CoolStory" target="Bunny" relationship="CREATE">
+      <point x="-67.75" y="-39.0" />
+      <point x="566.8568438003222" y="1313.0" />
+      <point x="182.3568438003221" y="1313.0" />
+      <point x="182.3568438003221" y="1303.0" />
+      <point x="362.4818438003221" y="1303.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="CoolStory" target="Group" relationship="CREATE">
+      <point x="-67.75" y="-39.0" />
+      <point x="566.8568438003222" y="1313.0" />
+      <point x="182.3568438003221" y="1313.0" />
+      <point x="182.3568438003221" y="1303.0" />
+      <point x="790.4818438003222" y="1303.0" />
+      <point x="790.4818438003222" y="1116.0" />
+      <point x="837.9818438003222" y="1116.0" />
+      <point x="52.5" y="171.0" />
+    </edge>
+    <edge source="Group" target="Fog" relationship="CREATE">
+      <point x="70.0" y="-171.0" />
+      <point x="855.4818438003222" y="720.0" />
+      <point x="981.9818438003222" y="720.0" />
+      <point x="981.9818438003222" y="700.0" />
+      <point x="824.3270531400963" y="700.0" />
+      <point x="37.25" y="39.0" />
+    </edge>
+    <edge source="CoolStory" target="Persona" relationship="DEPENDENCY">
+      <point x="67.75" y="-39.0" />
+      <point x="702.3568438003222" y="1313.0" />
+      <point x="1126.594001610306" y="1313.0" />
+      <point x="1126.594001610306" y="1303.0" />
+      <point x="1203.3687198067628" y="1303.0" />
+      <point x="1203.3687198067628" y="350.0" />
+      <point x="691.0770531400963" y="350.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Tigra" target="TypeOfWalking" relationship="DEPENDENCY">
+      <point x="40.0" y="-72.0" />
+      <point x="404.57705314009627" y="512.0" />
+      <point x="369.57705314009627" y="512.0" />
+      <point x="369.57705314009627" y="502.0" />
+      <point x="519.3270531400963" y="502.0" />
+      <point x="-53.75" y="39.0" />
+    </edge>
+    <edge source="DefaultPersona" target="Persona" relationship="GENERALIZATION">
+      <point x="38.25" y="-28.0" />
+      <point x="148.04400161030594" y="350.0" />
+      <point x="114.57705314009627" y="350.0" />
+      <point x="114.57705314009627" y="340.0" />
+      <point x="633.0770531400963" y="340.0" />
+      <point x="-58.0" y="94.0" />
+    </edge>
+    <edge source="CoolStory" target="FriendlessExeption" relationship="DEPENDENCY">
+      <point x="67.75" y="-39.0" />
+      <point x="702.3568438003222" y="1313.0" />
+      <point x="1126.594001610306" y="1313.0" />
+      <point x="1126.594001610306" y="1303.0" />
+      <point x="1203.3687198067628" y="1303.0" />
+      <point x="1203.3687198067628" y="109.0" />
+      <point x="274.07705314009627" y="109.0" />
+      <point x="274.07705314009627" y="99.0" />
+      <point x="385.70205314009627" y="99.0" />
+      <point x="-43.75" y="15.5" />
+    </edge>
+    <edge source="DefaultPersona" target="FriendlessExeption" relationship="DEPENDENCY">
+      <point x="-38.25" y="-28.0" />
+      <point x="71.54400161030594" y="350.0" />
+      <point x="79.95205314009627" y="350.0" />
+      <point x="79.95205314009627" y="109.0" />
+      <point x="274.07705314009627" y="109.0" />
+      <point x="274.07705314009627" y="99.0" />
+      <point x="385.70205314009627" y="99.0" />
+      <point x="-43.75" y="15.5" />
+    </edge>
+    <edge source="CoolStory" target="GroupExeption" relationship="DEPENDENCY">
+      <point x="67.75" y="-39.0" />
+      <point x="702.3568438003222" y="1313.0" />
+      <point x="1126.594001610306" y="1313.0" />
+      <point x="1126.594001610306" y="1303.0" />
+      <point x="1122.8687198067628" y="1303.0" />
+      <point x="1122.8687198067628" y="472.0" />
+      <point x="1155.1187198067628" y="472.0" />
+      <point x="37.75" y="15.5" />
+    </edge>
+    <edge source="CoolStory" target="TypeOfWalking" relationship="DEPENDENCY">
+      <point x="67.75" y="-39.0" />
+      <point x="702.3568438003222" y="1313.0" />
+      <point x="1126.594001610306" y="1313.0" />
+      <point x="1126.594001610306" y="1303.0" />
+      <point x="1122.8687198067628" y="1303.0" />
+      <point x="1122.8687198067628" y="482.0" />
+      <point x="519.3270531400963" y="482.0" />
+      <point x="-53.75" y="39.0" />
+    </edge>
+    <edge source="Bear.Thoughts" target="Bear" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="131.95205314009627" y="1116.0" />
+      <point x="121.96489533011254" y="1116.0" />
+      <point x="36.0" y="39.0" />
+    </edge>
+    <edge source="Bear" target="Bear.Bees" relationship="CREATE">
+      <point x="28.799999999999955" y="-39.0" />
+      <point x="114.7648953301125" y="720.0" />
+      <point x="112.61871980676301" y="720.0" />
+      <point x="27.666666666666742" y="15.5" />
+    </edge>
+    <edge source="PersonList" target="ListType" relationship="REALIZATION">
+      <point x="-61.33333333333334" y="-61.0" />
+      <point x="912.2437198067629" y="512.0" />
+      <point x="877.631561996779" y="512.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Group" target="TypeOfWalking" relationship="TO_ONE">
+      <point x="0.0" y="-171.0" />
+      <point x="785.4818438003222" y="720.0" />
+      <point x="778.2148953301124" y="720.0" />
+      <point x="778.2148953301124" y="710.0" />
+      <point x="702.0770531400963" y="710.0" />
+      <point x="702.0770531400963" y="512.0" />
+      <point x="626.8270531400963" y="512.0" />
+      <point x="53.75" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6180167597765363" showDependencies="true" x="602.0" y="687.0000000000001" />
+  <SelectedNodes>
+    <node>Group</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
